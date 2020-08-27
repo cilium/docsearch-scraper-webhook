@@ -1,18 +1,27 @@
 {
-  "index_name": "FIXME",
+  "index_name": "cilium_docs",
   "start_urls": [
     {
-      "url": "FIXME"
+      "url": "https://docs.cilium.io/en/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+          "stable",
+          "v1.7",
+          "v1.6",
+          "v1.5"
+        ]
+      }
     }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "FIXME h1",
-    "lvl1": "FIXME h2",
-    "lvl2": "FIXME h3",
-    "lvl3": "FIXME h4",
-    "lvl4": "FIXME h5",
-    "lvl5": "FIXME h6",
-    "text": "FIXME p, FIXME li"
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li, .section .code"
   }
 }
