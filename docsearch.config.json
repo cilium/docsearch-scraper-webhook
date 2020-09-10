@@ -15,6 +15,11 @@
       }
     }
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
   "stop_urls": [],
   "selectors": {
     "lvl0": ".section h1",
