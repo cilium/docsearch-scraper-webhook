@@ -1,7 +1,5 @@
 name: Update Algolia Index
 on:
-  # Temporarily triggering on pull requests to see if this actually works.
-  pull_request: {}
   # Allow manual triggers.
   workflow_dispatch: {}
   # Run once a day.
