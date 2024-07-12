@@ -24,7 +24,7 @@
     "lvl4": ".section h5, section h5",
     "lvl5": ".section h6, section h6",
     "text": ".section p, .section li, .section .code, section p, section li, section .code"
-  }
+  },
   "custom_settings": {
      "hitsPerPage": 6
   }
