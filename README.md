@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository is archived and unmaintained.
+
 # DocSearch scraper webhook
 
 This repository holds the code of the DocSearch scraper used to power the hosted
